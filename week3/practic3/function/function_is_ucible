@@ -1,0 +1,5 @@
+def faw(meow,mrrr):
+    if meow==mrrr:
+        return "meow"
+    else:
+        return "mrrr" 

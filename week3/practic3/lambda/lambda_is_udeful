@@ -1,0 +1,6 @@
+filt = lambda x : x%2==0
+a = input().split(' ')
+for i in range(len(a)):
+    a[i] = int(a[i])
+    if filt(a[i]):
+        a[i] = "hmm"

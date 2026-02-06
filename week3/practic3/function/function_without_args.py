@@ -1,0 +1,2 @@
+def kot():
+    print("meEeeEeeeEEEooowww")
