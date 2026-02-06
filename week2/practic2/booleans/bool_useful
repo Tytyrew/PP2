@@ -1,0 +1,8 @@
+a = True
+n = input()
+for i in range (2,n):
+    if (n%i==0):
+        a = False
+        break
+if (a): print("Prime")
+else: print("Not prime")

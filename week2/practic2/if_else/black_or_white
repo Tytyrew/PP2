@@ -1,0 +1,6 @@
+print("Are you Walter ____?")
+print("Black or white? (for black 0 for white 1)")
+c = input()
+if (c=="0"): print("Bruh")
+elif (c=="1"): print("You are god damn right")
+else: print("hmmm")

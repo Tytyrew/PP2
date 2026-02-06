@@ -1,0 +1,5 @@
+print("if or swich")
+a = input()
+if (a=="if"): print("Good job")
+elif (a=="swich"): print("Oh")
+else: print("wtf?")
