@@ -1,0 +1,5 @@
+input()
+d = dict(zip(input().split(),input().split()))
+inp = input()
+if inp in d:print(d[inp])
+else: print("Not found")

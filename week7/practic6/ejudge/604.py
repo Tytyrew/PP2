@@ -1,0 +1,5 @@
+n = int(input())
+a = input().split()
+b = input().split()
+c = zip(a,b)
+print(sum(map(lambda x: int(x[0])*int(x[1]),c)))
