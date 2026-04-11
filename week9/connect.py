@@ -9,6 +9,10 @@ def connect(config):
             return conn
     except (psycopg2.DatabaseError, Exception) as error:
         print(error)
+def get_connection():
+    config = load_config()
+    conn = psycopg2.connect(**config)
+    return conn
 def cursor():
     pass
 if __name__ == '__main__':
