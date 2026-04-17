@@ -39,7 +39,7 @@ def insert_from_csv(filename):
     conn.close()
 
 
-#  Вставка с консоли
+# Вставка с консоли
 def insert_from_console():
     name = input("Enter name: ")
     phone = input("Enter phone: ")
