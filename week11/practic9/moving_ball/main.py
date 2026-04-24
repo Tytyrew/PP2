@@ -69,7 +69,7 @@ def main():
 
         # ── Draw ───────────────────────────────────────────────────────────
         screen.fill(BG_COLOR)
-        draw_grid(screen)
+        #draw_grid(screen)
 
         ball.draw(screen)
 
